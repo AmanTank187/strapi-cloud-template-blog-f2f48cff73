@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_enhancedprofilecomponents_component_2s",
+  "info": {
+    "displayName": "Component 2"
+  },
+  "options": {},
+  "attributes": {
+    "CampusLifeHeader": {
+      "type": "string"
+    },
+    "CampusLifeText": {
+      "type": "blocks"
+    },
+    "CampusLifeImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "CampusFacilitiesHeader": {
+      "type": "string"
+    },
+    "CampusFacilitiesList": {
+      "type": "enumeration",
+      "enum": [
+        "libraries ",
+        "student union ",
+        "private sports",
+        "gym"
+      ]
+    }
+  }
+}

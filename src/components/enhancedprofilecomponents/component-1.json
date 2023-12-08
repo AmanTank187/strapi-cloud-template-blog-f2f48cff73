@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_enhancedprofilecomponents_component_1s",
+  "info": {
+    "displayName": "Component 1"
+  },
+  "options": {},
+  "attributes": {
+    "OverviewImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "OverviewHeader": {
+      "type": "string"
+    },
+    "OverviewText": {
+      "type": "blocks"
+    }
+  }
+}

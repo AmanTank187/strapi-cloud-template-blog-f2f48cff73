@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enhanced_profiles",
+  "info": {
+    "singularName": "enhanced-profile",
+    "pluralName": "enhanced-profiles",
+    "displayName": "Enhanced Profile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "universityname": {
+      "type": "string"
+    },
+    "universityoverview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "enhancedprofilecomponents.component-1"
+    },
+    "universitycampuslife": {
+      "type": "component",
+      "repeatable": false,
+      "component": "enhancedprofilecomponents.component-2"
+    }
+  }
+}
